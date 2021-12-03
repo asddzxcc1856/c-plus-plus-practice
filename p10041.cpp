@@ -11,8 +11,6 @@ double mid,d;
 int main ()
 {
 	cin >> t;
-	//FILE *f;
-	//f = freopen("out.txt","w",stdout);
 	for(k = 0 ; k < t ; k++)
 	{
 		cin >> num;
@@ -39,7 +37,6 @@ int main ()
 		}
 		cout << (int)d << "\n";
 	}
-	//fclose(f);
     return 0;
 }
 
