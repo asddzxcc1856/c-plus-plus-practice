@@ -1,5 +1,5 @@
 # c++ practice
 
-### CPE UVA 一星題 49題 解法
+###1. fourty-nine solution of UVA one star problems  
 
-### algorithm_sorting & searching moudle
+###2. algorithm_sorting & searching moudle
