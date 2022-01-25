@@ -74,7 +74,6 @@ void dfs(int x,int y)
 
 int main ()
 {
-	freopen("out.txt","w",stdout);
 	int times = 1;
 	while(cin >> m >> n)
 	{
