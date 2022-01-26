@@ -77,14 +77,15 @@ int main ()
 		}
 
 			
-		while(--e>i)
-		{
-			cout << "0";
-		}
+		
 		int j = 0;
 		for(;inter[j] == 0;j++);
 		if(i>=j)
 			cout << ".";
+		while(--e>i)
+		{
+			cout << "0";
+		}
 		for(;i >= j; i--)
 		{
 			cout << inter[i];
