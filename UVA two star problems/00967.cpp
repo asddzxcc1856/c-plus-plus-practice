@@ -3,7 +3,6 @@
 #include <cstring>
 #include <vector> 
 #include <cmath>
-#define IOS ios::sync_with_stdio(false),cin.tie(0);
 using namespace std;
 
 vector<int> p;
@@ -25,7 +24,6 @@ bool isp(int n)
 
 int main ()
 {
-	IOS
 	memset(dp,0,sizeof(dp));
 	for(int i = 100 ; i <= 1000000 ; i++)
 	{
@@ -60,7 +58,7 @@ int main ()
 	while(cin >> a && a != -1)
 	{
 		cin >> b;
-		int ans = dp[b] - dp[a];
+		int ans = dp[b] - dp[a - 1];
 		if(ans)
 		{
 			if(ans == 1)
