@@ -3,8 +3,7 @@ using namespace std;
 
 // a + c = x1 
 // a + b = x2 
-// b + c = x3;
-// µ¹©w a if(a + c == x1 && a + b == x2 )  
+// b + c = x3;  
 int main ()
 {
 	int a,b,c;
