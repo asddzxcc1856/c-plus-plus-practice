@@ -6,13 +6,13 @@ int n,k;
 
 void mergesort(int l,int r)
 {
-	if(!k || l >= r - 1)
+	if(k == 1 || l >= r - 1)
 	{
 		return;
 	}
 	int mid = (l + r) >> 1;
 	swap(arr[mid - 1],arr[mid]);
-	--k;
+	k -= 2;
 	mergesort(l,mid);
 	mergesort(mid,r);
 }
@@ -27,14 +27,13 @@ int main ()
 	}
 	else
 	{
-		k/=2;
 		for(int i = 0 ; i < n ; i++)
 		{
 			arr[i] = i + 1;
 		}	
 		mergesort(0,n);
 		
-		if(k)
+		if(k != 1)
 		{
 			cout << "-1\n";
 		}
