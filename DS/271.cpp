@@ -4,7 +4,6 @@ using namespace std;
 
 int main ()
 {
-	freopen("out.txt","w",stdout);
 	string str;
 	while(getline(cin,str))
 	{
